@@ -1,0 +1,6 @@
+1. edit photos to get text
+2. reading
+3. reading responses
+4. responses home page
+6. permanently start server
+7. put ip address on github

@@ -1,0 +1,26 @@
+.rgbcontainer{
+	position:absolute;
+	height:100%;
+}
+
+.indrgb{
+	display: inline-block;
+	width: 20%;
+	padding-left: 2%;
+	padding-right: 2%;
+	position: relative;
+	transform: translateY(50%);
+}
+
+img{
+	width:100%;
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+  	/*transform: translateY(50%);*/
+}
+
+img:hover{
+	-webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%);
+    cursor: pointer;
+}
