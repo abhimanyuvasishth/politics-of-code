@@ -54,7 +54,8 @@ app.get('/responses/:title', function(req, res, err){
       date:''
     };
 
-    var titles = ["Electronic Civil Disobedience", "Public Space", "Software Biases", "Modelling Society"];
+    var titles = ["Electronic Civil Disobedience", "Public Space", "Software Biases", "Modelling Society",
+                  "Government Control", "Popular Organizations", "Social Networks"];
     content.title = titles[req.params.title[4]-1];
 
     //here we use the fs module to read contents of a file, which is going to have the same name as our title ("./public/responses/week1.txt")
